@@ -1,0 +1,213 @@
+@charset "utf-8";
+/*    컨텐츠 공통 영역    */
+.page {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    clear: both;
+}
+
+.con_txt {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 4%;
+}
+.conTit {
+    font-size: 1.5em;
+    margin-bottom: 3%;
+    font-family: 'Poiret One';
+    color: #cd2026;
+}
+.conCom {
+    color: #424242;
+    font-size: .8em;
+    line-height: 1.6;
+}
+
+.blank {
+    clear: both;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    box-shadow: 0px 3px 3px #999;
+}
+    
+/*    첫 번째 페이지    */
+#con1 {
+    background: #F2F2F2;
+    height: 485px;
+}
+
+#con1 .con1_top {
+    margin-top: 4%;
+    width: 100%;
+    height: 218px;
+    background-image: url(img/middle6.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+/*    두 번째 컨텐츠    */
+#con2 {
+    height: 1157px;
+    box-shadow: 0px 3px 3px #333;
+    z-index: 1;
+}
+#con2 .visual_inner {
+    width: 100%;
+}
+#con2 .vs_Box {
+    width: 95%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+#con2 .vs_Box img {
+    display: block;
+    width: 100%;
+}
+
+/*    세 번째 컨텐츠    */
+#con3 {
+    margin-top: 2%;
+    height: 872px;
+}
+#con3 .vsWrap {
+    width: 100%;
+    height: 218px;
+    position: relative;
+}
+#con3 .vsWrap span {
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    bottom: 0;
+    left: 2%;
+    background: #fff;
+    transform: skew(-20deg);
+}
+#con3 .vsWrap .vsCom {
+    font-family: 'Poiret One';
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
+    color: #333;
+}
+
+/*    네 번째 컨텐츠    */
+#magazine {
+    background: #222;
+    height: 1140px;
+}
+#magazine .con_txt {
+    text-align: center;
+    padding-top: 10%;
+}
+#magazine .conCom {
+    color: #BDBDBD;
+    font-weight: bold;
+}
+
+#magazine .mg_wrap {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#magazine .mg {
+    width: 100%;
+}
+#magazine  .more {
+    text-align: center;
+    font-family: 'Poiret One';
+    color: #BDBDBD;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+#magazine .mgTit {
+    text-align: center;
+    font-family: 'Poiret One';
+    color: #BDBDBD;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+#magazine .line {
+    width: 100%;
+    height: 1px;
+    background: #BDBDBD;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 7%;
+}
+
+/*    다섯 번째 컨텐츠    */
+#news {
+    height: 640px;
+}
+
+#news .con_txt {
+    text-align: center;
+    padding-top: 6%;
+}
+#news .letter_inner {
+    width: 100%;
+    height: 75%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 5%;
+}
+#news .letter_inner .newsTit {
+    text-align: center;
+    color: #424242;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/*    뉴스레터 폼    */
+#news .frmFrame {
+    width: 100%;
+    height: 60%;
+    padding: 3%;
+    padding-top: 5%;
+}
+
+#news .frmFrame #news_frm {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+#news #news_frm .frm_control {
+    width: 90%;
+    height: 30px;
+    margin: 5px;
+    text-indent: 3%;
+}
+
+#news #news_frm .frm_control {
+    border: 1px solid #333;
+}
+
+#news #news_frm .msg {
+    width: 90%;
+    margin: 5px;
+    margin-top: 20px;
+    height: 200px;
+    border: 1px solid #333;
+    text-indent: 3%;
+}
+
+#news .submit_btn {
+    width: 130px;
+    height: 35px;
+    float: right;
+    margin: 5px;
+    margin-right: 8.5%;
+    border: 0;
+    background:#333;
+    color: #fff;
+    font-family: 'Poiret One';
+    font-weight: bold;
+}

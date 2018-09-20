@@ -1,0 +1,96 @@
+@charset "utf-8";
+/*    메인 비쥬얼    */
+#main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main .main_box {
+    width: 100%;
+    height: 100%;
+}
+
+#main .main_box  li {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#main .main_box .item1 {
+    background-image: url(img/top_main1.jpg);
+    z-index: 11;
+}
+#main .main_box .item2 {
+    background-image: url(img/top_main2.jpg);
+}
+
+#main .main_txt {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 20;
+    font-family: 'Poiret One';
+    text-align: center;
+    text-shadow: 0 2px 3px #222;
+}
+#main .main_com {
+    color: #fff;
+    font-size: 1.4em;
+}
+#main .main_tit {
+    color: #fff;
+
+}
+
+#main img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*    첫 번째 슬라이드     */
+#vs {
+    width: 100%;
+    height: 276px;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+}
+
+#vs .imgBox {
+    width: 400%;
+    height: 276px;
+    position: relative;
+}
+#vs .imgBox li {
+    width: 25%;
+    height: 276px;
+    float: left;
+    position: relative;
+}
+#vs .imgBox img {
+    width: 100%;
+    height: auto;
+}
+
+#vs  .imgFrame .vs_txt {
+    position: absolute;
+    top: 20%;
+    right: 8%;
+    z-index: 20;
+}
+#vs .imgFrame .vs_txt h3 {
+    font-family: 'Poiret One';
+    font-weight: 500;
+    color: #333;
+    font-weight: bold;
+}
+
+#vs .imgFrame .vsTit.w { color: #fff; }
